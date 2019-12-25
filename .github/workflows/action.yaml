@@ -22,7 +22,7 @@ jobs:
           server_port: 465
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
-          subject: Github: Beijing Weather Report
+          subject: Beijing Weather Report
           body: file://result.html
           to: lileeyao@outlook.com
           from: GitHub Actions
